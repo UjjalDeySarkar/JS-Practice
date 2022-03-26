@@ -5,5 +5,6 @@ let obj = {}
 
 let cap = {
     fname : "Ujjal",
-    lname : "Dey"
+    lname : "Dey",
+    friends : ['Ankit', 'Abhishek', 'Anmol'] // create array in object
 }
