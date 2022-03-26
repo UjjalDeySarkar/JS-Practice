@@ -25,4 +25,7 @@ let cap = {
 
 // Dot notation
 // console.log(cap.fname+" "+cap.lname)
-console.log(cap.friends[0])
+ console.log(cap.friends[0])
+
+// Bracket Notation
+console.log(cap['age'])
