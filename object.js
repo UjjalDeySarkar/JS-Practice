@@ -30,4 +30,13 @@ let cap = {
 // Bracket Notation
 console.log(cap['age'])
 
+//call function
 cap.sayHi()
+
+// update object
+cap.isInsperians = false;
+console.log(cap)
+
+//create something in object
+cap.collages = ['margaret school', 'inspiria', 'adamas']
+console.log(cap)
