@@ -40,3 +40,12 @@ console.log(cap)
 //create something in object
 cap.collages = ['margaret school', 'inspiria', 'adamas']
 console.log(cap)
+
+//delete
+delete cap.age
+console.log(cap)
+
+// Special loop(For in loop)
+for(let key in cap){
+    console.log("Key-> ", key, "Object-> ", cap[key])
+}
