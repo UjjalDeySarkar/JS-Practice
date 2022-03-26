@@ -17,7 +17,7 @@ let cap = {
 
     //function
     sayHi : function hi(){
-        console.log("Hii"+this.fname)
+        console.log("Hii "+this.fname)
     }
 }
 
@@ -29,3 +29,5 @@ let cap = {
 
 // Bracket Notation
 console.log(cap['age'])
+
+cap.sayHi()
