@@ -21,4 +21,8 @@ let cap = {
     }
 }
 
-console.log(cap)
+//console.log(cap)
+
+// Dot notation
+// console.log(cap.fname+" "+cap.lname)
+console.log(cap.friends[0])
