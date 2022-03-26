@@ -13,6 +13,12 @@ let cap = {
     address :{
         state : "West Bengal",
         city : "Siliguri"
+    },
+
+    //function
+    sayHi : function hi(){
+        console.log("Hii"+this.fname)
     }
-    
 }
+
+console.log(cap)
